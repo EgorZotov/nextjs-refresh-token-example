@@ -1,0 +1,39 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "rootDir": "./",
+        "outDir": "./dist/",
+        "noImplicitAny": true,
+        "sourceMap": true,
+        "module": "commonjs",
+        "target": "es5",
+        "jsx": "preserve",
+        "allowJs": true,
+        "moduleResolution": "node",
+        "paths": {
+            "images/*": ["public/images/*"],
+            "styles/*": ["styles/*"],
+            "components/*": ["src/components/*"],
+            "pages/*": ["src/pages/*"]
+        },
+        "allowSyntheticDefaultImports": true,
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "skipLibCheck": true,
+        "strict": false,
+        "forceConsistentCasingInFileNames": true,
+        "noEmit": true,
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "isolatedModules": true
+    },
+    // "ts-node": {
+    //     "compilerOptions": {
+    //       "module": "commonjs"
+    //     }
+    // },
+    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+    "exclude": ["node_modules", "next.config.js"]
+    // "exclude": [
+    //   "webpack"
+    // ]
+}

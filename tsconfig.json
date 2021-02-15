@@ -12,9 +12,10 @@
         "moduleResolution": "node",
         "paths": {
             "images/*": ["public/images/*"],
-            "styles/*": ["styles/*"],
+            "styles/*": ["src/styles/*"],
             "components/*": ["src/components/*"],
-            "pages/*": ["src/pages/*"]
+            "pages/*": ["src/pages/*"],
+            "types/*": ["src/types/*"]
         },
         "allowSyntheticDefaultImports": true,
         "lib": ["dom", "dom.iterable", "esnext"],

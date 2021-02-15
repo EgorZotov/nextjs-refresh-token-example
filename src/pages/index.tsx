@@ -1,1 +1,1 @@
-export { default, getStaticProps } from "pages/home";
+export { default, getServerSideProps } from "pages/user";
